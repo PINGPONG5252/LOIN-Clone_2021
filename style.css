@@ -1,0 +1,13 @@
+@import "reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&family=Rubik:wght@400;500;600;700;800;900&display=swap");
+
+@import "login-icons/bar_ques.css";
+
+/*screen*/
+@import "screen/login.css";
+
+body {
+  color: #2f363e;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+}

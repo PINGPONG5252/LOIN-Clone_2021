@@ -1,0 +1,9 @@
+.login__icons {
+  display: flex;
+  align-items: center;
+  opacity: 0.2;
+  padding: 10px 0 0 10px;
+}
+.login__icons-bar {
+  margin-right: 15px;
+}

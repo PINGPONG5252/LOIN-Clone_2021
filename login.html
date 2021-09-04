@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="login__icons">
+      <span class="login__icons-bar">
+        <i class="fas fa-bars"></i>
+      </span>
+      <span class="login__icons-ques">
+        <i class="far fa-question-circle"></i>
+      </span>
+    </div>
+
+    <header class="login__header">
+      <h1>LOIN</h1>
+    </header>
+
+    <main class="main__login">
+      <form class="login__bar">
+        <input type="text" placeholder="이메일 또는 전화번호" />
+        <input type="password" placeholder="비밀번호" />
+        <input type="submit" value="로그인" />
+      </form>
+
+      <div class="login__smallbox">
+        <div class="login__checkbox">
+          <form class="login__checkboxes">
+            <input type="checkbox" name="자동 로그인" checked />
+            <label for="자동 로그인">자동 로그인</label>
+          </form>
+          <form class="login__checkboxes-2">
+            <input type="checkbox" name="윈도우 시작 시 자동 실행" />
+            <label for="윈도우 시작 시 자동 실행">
+              윈도우 시작 시 자동 실행
+            </label>
+          </form>
+        </div>
+        <div class="what__password">비밀번호 찾기</div>
+      </div>
+
+      <div class="cellphone__login">
+        <span>휴대폰으로 로그인</span>
+        <i class="fas fa-chevron-right fa-sm"></i>
+      </div>
+    </main>
+
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+      integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
