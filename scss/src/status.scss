@@ -1,0 +1,21 @@
+.status-bar {
+  display: flex;
+  top: 0;
+  padding: 5px 3px;
+  box-sizing: border-box;
+  font-size: 12px;
+}
+
+.status-column {
+  display: flex;
+  width: 50%;
+  align-items: center;
+  &:last-child {
+    justify-content: flex-end;
+  }
+  &:last-child .fa-signal,
+  .fa-wifi,
+  span {
+    padding: 0px 3px;
+  }
+}

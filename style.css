@@ -5,7 +5,14 @@
 
 /*screen*/
 @import "screen/login.css";
+@import "screen/status.css";
+@import "screen/home.css";
 
+/*SCSS*/
+@import "login.scss";
+@import "status.scss";
+@import "home.scss";
+@import "_variable.scss";
 body {
   color: #2f363e;
   font-family: "Roboto", sans-serif;
